@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*******************END OF RESET****************/
+body {
+    background-image: url(/images/andrra-roxana-mnFmED8bhLY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
