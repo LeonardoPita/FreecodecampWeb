@@ -5,28 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Survey form</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1 id="title">Survey form</h1>
-        <p id="description">This is a survey form</p>
+        <div class="title">
+            <h1 id="title">Survey form.</h1>
+            <p id="description">This is a survey form.</p>
+        </div>
         <form id="survey-form">
-            <div>
+            <fieldset>
                 <label id="name-label">Name</label>
                 <input id="name" type="text" placeholder="Your name here" required>
-            </div>
-            <div>
+            
+        
                 <label id="email-label">Email</label>
                 <input id="email" type="email" required placeholder="Yours@email.com">
-            </div>
-            <div>
+            
+        
                 <label id="number-label">Phone</label>
                 <input id="number" type="number" min="8" max="12" required placeholder="11-1111-1111">
-            </div>
-            <div>
+            </fieldset>
+            <fieldset>
                 <label>How did you hear about us?</label>
                 <select id="dropdown">
                     <option value="">(select one)</option>
@@ -34,26 +35,31 @@
                     <option value="2">Website</option>
                     <option value="2">A friend</option>
                 </select>
-            </div>
-            <div>
-                <label>checkbox</label>
-                <input type="checkbox" value="News">
-                <input type="checkbox" value="Offers">
-                <input type="checkbox" value="Events">
-            </div>
-            <div>
-                <label>Radio</label>
+            </fieldset>
+            <fieldset class="subscribe">
+                <label>Subsribe for more.</label>
+                <div class="checkboxes">
+                    <label>News</label>
+                    <input type="checkbox" value="News" >
+                    <label>Offers</label>
+                    <input type="checkbox" value="Offers">
+                    <label>Events</label>
+                    <input type="checkbox" value="Events">
+                </div>
+            </fieldset>
+            <fieldset>
+                <label class="radio">Radio</label>
                 <input type="radio" name="radio" value="yes">
                 <input type="radio" name="radio" value="yes">
-            </div>
+            </fieldset>
+            <fieldset>
             <label>Tell us more</label>
             <textarea name="TellUs" rows="4" cols="30"></textarea>
-            <div>
+        </fieldset>
                 <input id="submit" type="submit">
                 <input type="reset">
             </div>
         </form>
-    </div>
 </body>
 
 </html>
