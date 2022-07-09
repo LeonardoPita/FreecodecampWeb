@@ -11,40 +11,46 @@ body {
     background-position: center;
     min-height: 100vh;
     color: white;
-    backdrop-filter: blur(3px) brightness(20%);
+    backdrop-filter: blur(3px) brightness(60%);
     -webkit-backdrop-filter: blur(3px) brightness(20%);
     font-size: 20px;
 }
 h1, p {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
-  }
-  
-  form {
-    width: 60vw;
-      max-width: 500px;
-      min-width: 260px;
-      margin: 0 auto;
-      padding-bottom: 50px;
-  }
-  
-  fieldset {
-    border: none;
-      padding: 1rem 0;
-  }
-  
-  fieldset:not(:last-of-type) {
-    border-bottom: 1px solid white;
-  }
-  
-  label {
-    display: block;
-      margin: 0.6rem 0;
-  }
-  
-  select, input, textarea {
-    width:100%;
-    display:block;
-    margin: 20px 0px 0px 0px;
-  }
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+	max-width: 500px;
+	min-width: 260px;
+	margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+	padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+  border-bottom: 3px solid white;
+}
+
+label {
+  display: block;
+	margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+.inline {
+  width: unset;
+  margin: 0px 0.5em 0px 0px ;
+
+}
