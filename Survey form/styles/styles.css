@@ -31,7 +31,7 @@ form {
 
 fieldset {
   border: none;
-	padding: 1rem 0;
+	padding: 1rem .5rem;
 }
 
 fieldset:not(:last-of-type) {
