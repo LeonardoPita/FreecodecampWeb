@@ -25,7 +25,7 @@ h1, p {
 form {
   width: 60vw;
 	max-width: 500px;
-	min-width: 260px;
+	min-width: 280px;
 	margin: 0 auto;
 }
 
@@ -50,12 +50,16 @@ select {
 	width: 100%;
 }
 
+input, select {
+  height: 30px;
+}
+
 .inline {
   width: unset;
   margin: 0px 0.5em 0px 0px ;
 }
 
 .submit {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
   width: 80px;
 }
